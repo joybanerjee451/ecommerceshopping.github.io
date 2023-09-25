@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Shopping Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Domine&family=Poppins:wght@300;400;500;600;700&family=Slabo+27px&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.PNG" alt="" width="120px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Electronics</a></li>
+                        <li><a href="">Clothing</a></li>
+                        <li><a href="">Footwear</a></li>
+                        <li><a href="">Furniture</a></li>
+                    </ul>
+                </nav>
+                <img src="images/carticon.png" alt="This is an image" width="30px" height="30px">
+                <img src="images/menu.png" alt="This is an image" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Get everything you need <br> on shoppeMania</h1>
+                    <p>Online Shopping India - Buy mobiles, laptops, cameras, books,<br> watches, apparel, shoes and
+                        e-Gift Cards. Free Shipping & Cash on Delivery </p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/electronics3.jpg" alt="This is an image" width="350px" height="350px"
+                        class="bgimg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="categories design">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/electronics1.jpg" alt="">
+                </div>
+                <!-- <div class="col-3">
+                    <img src="images/clothing1.jpg" alt="">
+                </div> -->
+                <div class="col-3">
+                    <img src="images/footwear1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/furniture1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/electronics4.jpg" alt="">
+                <h4>LED Monitors</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+
+                </div>
+                <p>$349.00-$1099.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/furniture4.jpg" alt="">
+                <h4>Ergonomic Chairs</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+
+                </div>
+                <p>$139.00-$229.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/footwear3.jpg" alt="">
+                <h4>Shoes for Men</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                </div>
+                <p>$79.00-$359.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/clothing1.jpg" alt="">
+                <h4>Men's Printed Shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+
+                </div>
+                <p>$85.00-$189.00</p>
+            </div>
+
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/electronics7.jpg" alt="">
+                <h4>LED Monitors</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+
+                </div>
+                <p>$349.00-$1099.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/furniture5.jpg" alt="">
+                <h4>Ergonomic Chairs</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+
+                </div>
+                <p>$139.00-$229.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/footwear4.jpg" alt="">
+                <h4>Shoes for Men</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                </div>
+                <p>$79.00-$359.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/clothing4.jpg" alt="">
+                <h4>Men's Printed Shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+
+                </div>
+                <p>$85.00-$189.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/electronics6.jpg" alt="">
+                <h4>LED Monitors</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+
+                </div>
+                <p>$349.00-$1099.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/furniture6.jpg" alt="">
+                <h4>Ergonomic Chairs</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+
+                </div>
+                <p>$139.00-$229.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/footwear5.jpg" alt="">
+                <h4>Shoes for Men</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                </div>
+                <p>$79.00-$359.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/clothing5.jpg" alt="">
+                <h4>Men's Printed Shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+
+                </div>
+                <p>$85.00-$189.00</p>
+            </div>
+        </div>
+
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/electronics5.jpg" class="offer-img" alt="">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively Available on shoppeMania</p>
+                        <h1>Apple Watch Series 2 Ceramic Edition</h1>
+                        <small>The Apple Watch Series 2 will come in Aluminium case with Sport Band or Woven Nylon
+                            strap, Aluminium case with Nike Sport Band, Stainless steel case with Hermes strap, and
+                            Ceramic case with Sport Band. Unlike the previous Apple Watch Series 1 model, there will no
+                            Gold variant of the new Apple Watch.</small>
+                        <br>
+                        <a href="" class="btn">Buy Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quod adipisci beatae
+                            nulla assumenda id, placeat sunt, delectus repudiandae alias sed voluptatem deleniti dolorem
+                            magnam suscipit et sit inventore blanditiis.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+                        <img src="images/person1.jpg" alt="">
+                        <h3>Sean Parker</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quod adipisci beatae
+                            nulla assumenda id, placeat sunt, delectus repudiandae alias sed voluptatem deleniti dolorem
+                            magnam suscipit et sit inventore blanditiis.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+                        <img src="images/person2.jpg" alt="">
+                        <h3>Julie Smith</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quod adipisci beatae
+                            nulla assumenda id, placeat sunt, delectus repudiandae alias sed voluptatem deleniti dolorem
+                            magnam suscipit et sit inventore blanditiis.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+                        <img src="images/person3.jpg" alt="">
+                        <h3>Steve Christian</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/brand1.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/brand2.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/brand3.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/brand4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and iOS mobile phones</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png" alt="">
+                            <img src="images/app-store.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo.PNG" alt="" width="20px">
+                        <p>Free shipping on millions of items. Get the best of Shopping. Enjoy low prices and great
+                            deals on the best ecommerce store of India.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Become an Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright &copy; 2023 - shoppeMania.com | All rights reserved. </p>
+            </div>
+        </div>
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight = "200px"
+                }
+                else{
+                    MenuItems.style.maxHeight = "0px"
+                }
+            }
+        </script>
+</body>
+
+</html>
